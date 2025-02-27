@@ -27,7 +27,7 @@ namespace RoomBookingApp.WebApi.Controllers
                     return Ok(result);
                 }
 
-                ModelState.AddModelError(nameof(RoomBookingRequest.Date), "No rooms available for given Dat1e");
+                ModelState.AddModelError(nameof(RoomBookingRequest.Date), "No rooms available for given Dat11e");
             }
 
             return BadRequest();
