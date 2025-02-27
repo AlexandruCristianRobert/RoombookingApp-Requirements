@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoombookingApp.Core.Tests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Core", "RoomBookingApp.Core\RoomBookingApp.Core.csproj", "{FF218471-4E1D-4ECD-BEFF-08159EC60C72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Domain", "RoomBookingApp.Domain\RoomBookingApp.Domain.csproj", "{4D69979C-B8DE-419C-8FD7-843675B5B464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Persistence", "RoomBookingApp.Persistence\RoomBookingApp.Persistence.csproj", "{F4083E47-8BDC-4295-8633-9097E4D088FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Persistence.Tests", "RoomBookingApp.Persistence.Tests\RoomBookingApp.Persistence.Tests.csproj", "{DF373B33-DCF4-435B-9837-EE538B7C8BAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{FF218471-4E1D-4ECD-BEFF-08159EC60C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF218471-4E1D-4ECD-BEFF-08159EC60C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF218471-4E1D-4ECD-BEFF-08159EC60C72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D69979C-B8DE-419C-8FD7-843675B5B464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D69979C-B8DE-419C-8FD7-843675B5B464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D69979C-B8DE-419C-8FD7-843675B5B464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D69979C-B8DE-419C-8FD7-843675B5B464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4083E47-8BDC-4295-8633-9097E4D088FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4083E47-8BDC-4295-8633-9097E4D088FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4083E47-8BDC-4295-8633-9097E4D088FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4083E47-8BDC-4295-8633-9097E4D088FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF373B33-DCF4-435B-9837-EE538B7C8BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF373B33-DCF4-435B-9837-EE538B7C8BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF373B33-DCF4-435B-9837-EE538B7C8BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF373B33-DCF4-435B-9837-EE538B7C8BAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
